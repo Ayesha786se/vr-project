@@ -1,0 +1,77 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.btn-primary{
+    background-color: var(--primary);
+    color: var(--dark);
+}
+.btn-primary:hover{
+    background-color:transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.btn-secondary{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.btn-secondary:hover{
+    background-color:var(--primary);
+    
+    color: var(--pure);
+}
+
+.flex-1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+}
+
+
+/* <!-- Applications of VR Section -->
+<section id="applications" class="applications">
+    <h2>Applications of Virtual Reality</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://cdn.mos.cms.futurecdn.net/MWLF9tpHEo6iNHNj4BW3TS.jpg" alt="Gaming">
+            <div class="overlay">
+                <p>Gaming: Offering immersive gaming experiences.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://thedailyguardian.com/wp-content/uploads/2023/12/VR.jpg" alt="Education">
+            <div class="overlay">
+                <p>Education: Interactive learning experiences.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*vfb9K3bxAA_v9uCa1gB63w.jpeg" alt="Healthcare">
+            <div class="overlay">
+                <p>Healthcare: Therapy and rehabilitation applications.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Virtual_Reality_1.jpg" alt="Architecture">
+            <div class="overlay">
+                <p>Architecture: 3D models and design exploration.</p>
+            </div>
+        </div>
+    </div>
+</section> */
